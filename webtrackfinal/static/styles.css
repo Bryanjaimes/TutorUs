@@ -1,0 +1,68 @@
+.red
+{
+    color: #DC143C;
+}
+.blue
+{
+    color: #87CEFA;
+}
+.orange
+{
+    color: #FFA500;
+}
+.green
+{
+    color: #90EE90;
+}
+.lightblue
+{
+    color: #04D9FF;
+}
+nav .navbar-brand
+{
+    font-size:30px;
+}
+.form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+
+}
+main
+{
+    text-align: center;
+}
+.loginlogo
+{
+   padding-top: 150px;
+   text-align:center;
+   font-size:75px;
+}
+.bookshelf
+{
+    background-image: url("/static/bookshelf.png");
+    opacity:0.1;
+    background-size:100%;
+}
+.small
+{
+    padding-top:200px;
+}
+.btn-group
+{
+    padding-bottom:20px;
+}
+.card-deck
+{
+  left:10px;
+  width:90%;
+  height:100%;
+  margin:auto;
+}
+.a
+{
+    text-decoration: None;
+}

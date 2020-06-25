@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <h2>
+        Welcome back, {{ firstname }}!
+    </h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Assignment</th>
+                <th>Tutor</th>
+                <th>Date and Time Posted</th>
+            </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>Trigonometry Quiz</td>
+                    <td>Maya</td>
+                    <td>Monday 12:00</td>
+                </tr>
+            <tr>
+                <td colspan="3">ASS</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock %}

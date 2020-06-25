@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- JavaScript documentation -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <!-- Implement stylesheets -->
+        <link href = "/static/styles.css" rel="stylesheet">
+
+        <title> TutorUs: Register</title>
+    </head>
+
+    <body>
+
+        <div class = "loginlogo">
+          <a class = "nav-link" href="/"><span class = "red">T</span><span class = "blue">u</span><span class = "red">t</span><span class = "orange">o</span><span class = "green">r</span><span class = "lightblue">Us</span></a>
+        </div>
+
+        <main>
+                <form action="/register" method="post">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                     <label class="btn btn-secondary">
+                        <input type="radio" name="usertype" id="tutor" autocomplete="off" value = "tutor"><i class="fa fa-graduation-cap"></i>Tutor
+                      </label>
+                     <label class="btn btn-secondary">
+                        <input type="radio" name="usertype" id="tutor" autocomplete="off" value = "student"> Student
+                      </label>
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" name="firstname" placeholder="First Name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="lastname" placeholder="Last Name" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="password" placeholder="Password" type="password">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="confirmation" placeholder="Password (again)" type="password">
+                    </div>
+                    <button class="btn btn-primary" type="submit">Register</button>
+                </form>
+        </main>
+
+    </body>
+</html>
